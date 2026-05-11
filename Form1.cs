@@ -79,7 +79,28 @@ namespace MyWindowApp
 
                     btn.FlatStyle = FlatStyle.Flat;
                     btn.FlatAppearance.BorderSize = 0;
-
+                    if (btn.Text == "AC")
+                    {
+                        btn.Click += (sender, e) =>
+                        {
+                            display.Text = String.Empty; // Clear the display
+                        };
+                    }
+                    else if (btn.Text == "=")
+                    {
+                        btn.Click += (sender, e) =>
+                        {
+                            MessageBox.Show("Calculate: " + display.Text); // Placeholder for calculation logic
+                        };
+                    }
+                    else
+                    {
+                        btn.Click += (sender, e) =>
+                        {
+                        // Button click logic
+                        display.Text += text; 
+                        };
+                    };
                     panel.Controls.Add(btn, col, row);
                 }
             }
@@ -87,7 +108,8 @@ namespace MyWindowApp
             Controls.Add(panel);
             
             display = new TextBox();
-            display.Text = "0";
+            display.Text = "";
+            display.PlaceholderText = "0";
             display.Font = new Font("Segoe UI", 28);
             display.ForeColor = Color.White;
             display.BackColor = Color.Black;
