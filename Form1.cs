@@ -1,11 +1,21 @@
 using System;
 using System.Drawing;
 using System.Windows.Forms;
+using System.Text.RegularExpressions;
 
 namespace MyWindowApp
 {
     public partial class Form1 : Form
     {
+        private List<String> SepararTokens(string expr)
+        {
+            var partirEnTokens = Regex.Matches(expr, @"(?:\d+\.\d+|\d+|\.\d+)|[+\-/*^()]");
+            var ListaDeToken = new List<string>();
+            foreach (Match m in partirEnTokens)
+                ListaDeToken.Add(m.Value);
+            ListaDeToken.Add("FIN");
+            return ListaDeToken;
+        }
         TextBox display;
 
         public Form1()
@@ -90,8 +100,15 @@ namespace MyWindowApp
                     {
                         btn.Click += (sender, e) =>
                         {
-                            MessageBox.Show("Calculate: " + display.Text); // Placeholder for calculation logic
+                            List<string> tokens = SepararTokens(display.Text);
+                            
+                            string resultado = "";
+                            foreach(string s in tokens)
+                                resultado += "[" + s + "], ";
+                            
+                            MessageBox.Show("Tokens encontrados: " + resultado); // Placeholder for calculation logic
                         };
+
                     }
                     else
                     {

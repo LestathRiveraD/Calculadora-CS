@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emman\\Documents\\Automatas\\ProyectoFInal\\Calculadora-CS\\MyWindowApp.csproj": {}
+    "C:\\Users\\MARA\\Desktop\\Calculadora-CS\\MyWindowApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\emman\\Documents\\Automatas\\ProyectoFInal\\Calculadora-CS\\MyWindowApp.csproj": {
+    "C:\\Users\\MARA\\Desktop\\Calculadora-CS\\MyWindowApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emman\\Documents\\Automatas\\ProyectoFInal\\Calculadora-CS\\MyWindowApp.csproj",
+        "projectUniqueName": "C:\\Users\\MARA\\Desktop\\Calculadora-CS\\MyWindowApp.csproj",
         "projectName": "MyWindowApp",
-        "projectPath": "C:\\Users\\emman\\Documents\\Automatas\\ProyectoFInal\\Calculadora-CS\\MyWindowApp.csproj",
-        "packagesPath": "C:\\Users\\emman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emman\\Documents\\Automatas\\ProyectoFInal\\Calculadora-CS\\obj\\",
+        "projectPath": "C:\\Users\\MARA\\Desktop\\Calculadora-CS\\MyWindowApp.csproj",
+        "packagesPath": "C:\\Users\\MARA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MARA\\Desktop\\Calculadora-CS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\emman\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\MARA\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0-windows"
