@@ -29,9 +29,11 @@ namespace MyWindowApp
             TabPage tabPage1 = new TabPage("Calculadora");
             TabPage tabPage2 = new TabPage("Tabla de derivacion");
             TabPage tabPage3 = new TabPage("Arbol de derivacion");
+            TabPage tabPage4 = new TabPage("Historial");
             tabControl.TabPages.Add(tabPage1);
             tabControl.TabPages.Add(tabPage2);
             tabControl.TabPages.Add(tabPage3);
+            tabControl.TabPages.Add(tabPage4);
             Controls.Add(tabControl);
             tabControl.Dock = DockStyle.Fill;
 
@@ -43,9 +45,21 @@ namespace MyWindowApp
             tabPage1.BackColor = Color.Black;
             tabPage2.BackColor = Color.Black;
             tabPage3.BackColor = Color.Black;
+            tabPage4.BackColor = Color.Black;
             tabPage1.Dock = DockStyle.Fill;
             tabPage2.Dock = DockStyle.Fill;
             tabPage3.Dock = DockStyle.Fill;
+            tabPage4.Dock = DockStyle.Fill;
+
+            Arbol arbol = new Arbol();
+            tabPage3.Controls.Add(arbol);
+            tabControl.SelectedIndexChanged += (sender, e) =>
+            {
+                if (tabControl.SelectedTab == tabPage3)
+                {
+                    arbol.setDisplay(display.Text);
+                }
+            };
 
             TableLayoutPanel panel = new TableLayoutPanel();
             panel.RowCount = 5;
@@ -164,7 +178,6 @@ namespace MyWindowApp
             display.Height = 80;
 
             tabPage1.Controls.Add(display);
-            tabPage3.Controls.Add(new Arbol());
 
         }
         
