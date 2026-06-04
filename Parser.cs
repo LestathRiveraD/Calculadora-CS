@@ -87,6 +87,11 @@ partial class Parser
             SiguienteToken(")");
             return resultado;
         }
+        if (TokenActual == "-")
+        {
+            SiguienteToken("-");
+            return -Factor();
+        }
         else if (Regex.IsMatch(TokenActual, @"^\d*\.?\d*$"))
         {
             double value = double.Parse(TokenActual);

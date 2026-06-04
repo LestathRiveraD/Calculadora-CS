@@ -56,3 +56,4 @@ C:\Users\emman\Downloads\Calculadora-CS-master (1)\Calculadora-CS-master\obj\Deb
 C:\Users\emman\Downloads\Calculadora-CS-master (1)\Calculadora-CS-master\obj\Debug\net10.0-windows\MyWindowApp.pdb
 C:\Users\emman\Downloads\Calculadora-CS-master (1)\Calculadora-CS-master\obj\Debug\net10.0-windows\MyWindowApp.genruntimeconfig.cache
 C:\Users\emman\Downloads\Calculadora-CS-master (1)\Calculadora-CS-master\obj\Debug\net10.0-windows\ref\MyWindowApp.dll
+C:\Users\emman\Downloads\Calculadora-CS-master (1)\Calculadora-CS-master\obj\Debug\net10.0-windows\MyWindowApp.sourcelink.json
