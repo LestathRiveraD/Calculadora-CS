@@ -1,0 +1,58 @@
+C:\Users\MARA\Desktop\MyWindowApp\bin\Debug\net10.0-windows\MyWindowApp.exe
+C:\Users\MARA\Desktop\MyWindowApp\bin\Debug\net10.0-windows\MyWindowApp.deps.json
+C:\Users\MARA\Desktop\MyWindowApp\bin\Debug\net10.0-windows\MyWindowApp.runtimeconfig.json
+C:\Users\MARA\Desktop\MyWindowApp\bin\Debug\net10.0-windows\MyWindowApp.dll
+C:\Users\MARA\Desktop\MyWindowApp\bin\Debug\net10.0-windows\MyWindowApp.pdb
+C:\Users\MARA\Desktop\MyWindowApp\obj\Debug\net10.0-windows\MyWindowApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MARA\Desktop\MyWindowApp\obj\Debug\net10.0-windows\MyWindowApp.AssemblyInfoInputs.cache
+C:\Users\MARA\Desktop\MyWindowApp\obj\Debug\net10.0-windows\MyWindowApp.AssemblyInfo.cs
+C:\Users\MARA\Desktop\MyWindowApp\obj\Debug\net10.0-windows\MyWindowApp.csproj.CoreCompileInputs.cache
+C:\Users\MARA\Desktop\MyWindowApp\obj\Debug\net10.0-windows\MyWindowApp.dll
+C:\Users\MARA\Desktop\MyWindowApp\obj\Debug\net10.0-windows\refint\MyWindowApp.dll
+C:\Users\MARA\Desktop\MyWindowApp\obj\Debug\net10.0-windows\MyWindowApp.pdb
+C:\Users\MARA\Desktop\MyWindowApp\obj\Debug\net10.0-windows\MyWindowApp.genruntimeconfig.cache
+C:\Users\MARA\Desktop\MyWindowApp\obj\Debug\net10.0-windows\ref\MyWindowApp.dll
+C:\Users\emman\Documents\Automatas\ProyectoFInal\Calculadora-CS\bin\Debug\net10.0-windows\MyWindowApp.exe
+C:\Users\emman\Documents\Automatas\ProyectoFInal\Calculadora-CS\bin\Debug\net10.0-windows\MyWindowApp.deps.json
+C:\Users\emman\Documents\Automatas\ProyectoFInal\Calculadora-CS\bin\Debug\net10.0-windows\MyWindowApp.runtimeconfig.json
+C:\Users\emman\Documents\Automatas\ProyectoFInal\Calculadora-CS\bin\Debug\net10.0-windows\MyWindowApp.dll
+C:\Users\emman\Documents\Automatas\ProyectoFInal\Calculadora-CS\bin\Debug\net10.0-windows\MyWindowApp.pdb
+C:\Users\emman\Documents\Automatas\ProyectoFInal\Calculadora-CS\obj\Debug\net10.0-windows\MyWindowApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emman\Documents\Automatas\ProyectoFInal\Calculadora-CS\obj\Debug\net10.0-windows\MyWindowApp.AssemblyInfoInputs.cache
+C:\Users\emman\Documents\Automatas\ProyectoFInal\Calculadora-CS\obj\Debug\net10.0-windows\MyWindowApp.AssemblyInfo.cs
+C:\Users\emman\Documents\Automatas\ProyectoFInal\Calculadora-CS\obj\Debug\net10.0-windows\MyWindowApp.csproj.CoreCompileInputs.cache
+C:\Users\emman\Documents\Automatas\ProyectoFInal\Calculadora-CS\obj\Debug\net10.0-windows\MyWindowApp.sourcelink.json
+C:\Users\emman\Documents\Automatas\ProyectoFInal\Calculadora-CS\obj\Debug\net10.0-windows\MyWindowApp.dll
+C:\Users\emman\Documents\Automatas\ProyectoFInal\Calculadora-CS\obj\Debug\net10.0-windows\refint\MyWindowApp.dll
+C:\Users\emman\Documents\Automatas\ProyectoFInal\Calculadora-CS\obj\Debug\net10.0-windows\MyWindowApp.pdb
+C:\Users\emman\Documents\Automatas\ProyectoFInal\Calculadora-CS\obj\Debug\net10.0-windows\MyWindowApp.genruntimeconfig.cache
+C:\Users\emman\Documents\Automatas\ProyectoFInal\Calculadora-CS\obj\Debug\net10.0-windows\ref\MyWindowApp.dll
+C:\Users\MARA\Desktop\Calculadora-CS\bin\Debug\net10.0-windows\MyWindowApp.exe
+C:\Users\MARA\Desktop\Calculadora-CS\bin\Debug\net10.0-windows\MyWindowApp.deps.json
+C:\Users\MARA\Desktop\Calculadora-CS\bin\Debug\net10.0-windows\MyWindowApp.runtimeconfig.json
+C:\Users\MARA\Desktop\Calculadora-CS\bin\Debug\net10.0-windows\MyWindowApp.dll
+C:\Users\MARA\Desktop\Calculadora-CS\bin\Debug\net10.0-windows\MyWindowApp.pdb
+C:\Users\MARA\Desktop\Calculadora-CS\obj\Debug\net10.0-windows\MyWindowApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MARA\Desktop\Calculadora-CS\obj\Debug\net10.0-windows\MyWindowApp.AssemblyInfoInputs.cache
+C:\Users\MARA\Desktop\Calculadora-CS\obj\Debug\net10.0-windows\MyWindowApp.AssemblyInfo.cs
+C:\Users\MARA\Desktop\Calculadora-CS\obj\Debug\net10.0-windows\MyWindowApp.csproj.CoreCompileInputs.cache
+C:\Users\MARA\Desktop\Calculadora-CS\obj\Debug\net10.0-windows\MyWindowApp.sourcelink.json
+C:\Users\MARA\Desktop\Calculadora-CS\obj\Debug\net10.0-windows\MyWindowApp.dll
+C:\Users\MARA\Desktop\Calculadora-CS\obj\Debug\net10.0-windows\refint\MyWindowApp.dll
+C:\Users\MARA\Desktop\Calculadora-CS\obj\Debug\net10.0-windows\MyWindowApp.pdb
+C:\Users\MARA\Desktop\Calculadora-CS\obj\Debug\net10.0-windows\MyWindowApp.genruntimeconfig.cache
+C:\Users\MARA\Desktop\Calculadora-CS\obj\Debug\net10.0-windows\ref\MyWindowApp.dll
+C:\Users\emman\Downloads\Calculadora-CS-master (1)\Calculadora-CS-master\bin\Debug\net10.0-windows\MyWindowApp.exe
+C:\Users\emman\Downloads\Calculadora-CS-master (1)\Calculadora-CS-master\bin\Debug\net10.0-windows\MyWindowApp.deps.json
+C:\Users\emman\Downloads\Calculadora-CS-master (1)\Calculadora-CS-master\bin\Debug\net10.0-windows\MyWindowApp.runtimeconfig.json
+C:\Users\emman\Downloads\Calculadora-CS-master (1)\Calculadora-CS-master\bin\Debug\net10.0-windows\MyWindowApp.dll
+C:\Users\emman\Downloads\Calculadora-CS-master (1)\Calculadora-CS-master\bin\Debug\net10.0-windows\MyWindowApp.pdb
+C:\Users\emman\Downloads\Calculadora-CS-master (1)\Calculadora-CS-master\obj\Debug\net10.0-windows\MyWindowApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emman\Downloads\Calculadora-CS-master (1)\Calculadora-CS-master\obj\Debug\net10.0-windows\MyWindowApp.AssemblyInfoInputs.cache
+C:\Users\emman\Downloads\Calculadora-CS-master (1)\Calculadora-CS-master\obj\Debug\net10.0-windows\MyWindowApp.AssemblyInfo.cs
+C:\Users\emman\Downloads\Calculadora-CS-master (1)\Calculadora-CS-master\obj\Debug\net10.0-windows\MyWindowApp.csproj.CoreCompileInputs.cache
+C:\Users\emman\Downloads\Calculadora-CS-master (1)\Calculadora-CS-master\obj\Debug\net10.0-windows\MyWindowApp.dll
+C:\Users\emman\Downloads\Calculadora-CS-master (1)\Calculadora-CS-master\obj\Debug\net10.0-windows\refint\MyWindowApp.dll
+C:\Users\emman\Downloads\Calculadora-CS-master (1)\Calculadora-CS-master\obj\Debug\net10.0-windows\MyWindowApp.pdb
+C:\Users\emman\Downloads\Calculadora-CS-master (1)\Calculadora-CS-master\obj\Debug\net10.0-windows\MyWindowApp.genruntimeconfig.cache
+C:\Users\emman\Downloads\Calculadora-CS-master (1)\Calculadora-CS-master\obj\Debug\net10.0-windows\ref\MyWindowApp.dll
