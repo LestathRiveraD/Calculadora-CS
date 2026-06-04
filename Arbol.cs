@@ -19,14 +19,36 @@ namespace MyWindowApp
             ParserArbol parser = new ParserArbol();
             parser.SetParser(tokens);
             List<string> niveles = parser.Parse();
-            TreeNode root = new TreeNode("Expresion Matematica");
-            foreach (string nivel in niveles)
-            {
-                root.Nodes.Add(nivel);
-            }
-            treeView.Nodes.Add(root);
+            TreeNode raiz = treeView.Nodes.Add("Raiz");
+            AgregarNiveles(raiz, niveles, 0);
             treeView.ExpandAll();
         }
+
+            private void AgregarNiveles(TreeNode root, List<string> niveles, int indice)
+    {
+        if (indice >= niveles.Count)
+            return;
+
+        string nivel = niveles[indice];
+
+        if (nivel != "Expresion" &&
+            nivel != "Termino" &&
+            nivel != "Factor" &&
+            nivel != "Potencia")
+        {
+            TreeNode nuevoNodo = root.Nodes.Add(nivel);
+
+            // Continúa agregando los siguientes elementos debajo del nuevo nodo
+            AgregarNiveles(nuevoNodo, niveles, indice + 1);
+        }
+        else
+        {
+            TreeNode nuevoNodo = root.Nodes.Add(nivel);
+
+            // Continúa agregando los siguientes elementos debajo de este nodo
+            AgregarNiveles(nuevoNodo, niveles, indice + 1);
+        }
+    }
         private List<String> SepararTokens(string expr)
         {
             var partirEnTokens = Regex.Matches(expr, @"(?:\d+\.\d+|\d+|\.\d+)|[+\-/*^()]");
