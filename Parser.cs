@@ -20,19 +20,15 @@ partial class Parser
     private double Expresion()
     {
         double resultado = Termino();
-        while (TokenActual == "+")
+        while (TokenActual == "+" || TokenActual == "-")
         {
             string operador = TokenActual;
             SiguienteToken(operador);
+
             if (operador == "+")
-            resultado += Termino();
-        }
-       while (TokenActual == "-")
-        {
-            string operador = TokenActual;
-            SiguienteToken(operador);
-            if (operador == "-")
-            resultado -= Termino();
+                resultado += Termino();
+            else
+                resultado -= Termino();
         }
         return resultado;
     }
@@ -48,19 +44,15 @@ partial class Parser
     private double Termino()
     {
         double resultado = Potencia();
-        while (TokenActual == "*")
+        while (TokenActual == "*" || TokenActual == "/")
         {
             string operador = TokenActual;
             SiguienteToken(operador);
+
             if (operador == "*")
-            resultado *= Potencia();
-        }
-        while (TokenActual == "/")
-        {
-            string operador = TokenActual;
-            SiguienteToken(operador);
-            if (operador == "/")
-            resultado /= Potencia();
+                resultado *= Potencia();
+            else
+                resultado /= Potencia();
         }
         return resultado;
     }

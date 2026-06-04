@@ -5,7 +5,7 @@ using System.Text.RegularExpressions;
 
 namespace MyWindowApp
 {
-    public partial class Form1 : Form
+    public partial class Arbol : UserControl
     {
         private List<String> SepararTokens(string expr)
         {
@@ -18,34 +18,9 @@ namespace MyWindowApp
         }
         TextBox display;
 
-        public Form1()
+        public Arbol()
         {
-
-            InitializeComponent();
-            Text = "Calculator";
-            Width = 600;
-            Height = 700;
-            TabControl tabControl = new TabControl();
-            TabPage tabPage1 = new TabPage("Calculadora");
-            TabPage tabPage2 = new TabPage("Tabla de derivacion");
-            TabPage tabPage3 = new TabPage("Arbol de derivacion");
-            tabControl.TabPages.Add(tabPage1);
-            tabControl.TabPages.Add(tabPage2);
-            tabControl.TabPages.Add(tabPage3);
-            Controls.Add(tabControl);
-            tabControl.Dock = DockStyle.Fill;
-
-            BackColor = Color.Black;
-            FormBorderStyle = FormBorderStyle.FixedSingle;
-            MaximizeBox = false;
             Parser parser = new Parser();
-
-            tabPage1.BackColor = Color.Black;
-            tabPage2.BackColor = Color.Black;
-            tabPage3.BackColor = Color.Black;
-            tabPage1.Dock = DockStyle.Fill;
-            tabPage2.Dock = DockStyle.Fill;
-            tabPage3.Dock = DockStyle.Fill;
 
             TableLayoutPanel panel = new TableLayoutPanel();
             panel.RowCount = 5;
@@ -150,7 +125,7 @@ namespace MyWindowApp
                 }
             }
 
-            tabPage1.Controls.Add(panel);
+            Controls.Add(panel);
             
             display = new TextBox();
             display.Text = "";
@@ -163,9 +138,9 @@ namespace MyWindowApp
             display.Dock = DockStyle.Top;
             display.Height = 80;
 
-            tabPage1.Controls.Add(display);
-            tabPage3.Controls.Add(new Arbol());
 
+
+            
         }
         
     }
